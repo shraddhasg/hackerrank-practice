@@ -19,7 +19,7 @@ public class CountTriplets {
 //            System.out.println(one);
             index = findIndex(one, arr, i + 1);
             if (index > 0) {
-                arr.add(index, );
+//                arr.add(index, );
             }
         }
     }
