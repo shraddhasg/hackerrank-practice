@@ -1,5 +1,7 @@
 package com.shraddha;
 
+import java.util.Locale;
+
 public class LongestCommonString {
 
     public static String lcsPrinting(String a, String b, int m, int n) {
@@ -50,8 +52,10 @@ public class LongestCommonString {
     }
 
     public static void main(String[] args) {
-        String a = "abcdgh";
-        String b = "abedfhr";
+        String a = "daBcd";
+        String b = "ABC";
+        a = a.toUpperCase();
+        b = b.toUpperCase();
 
         System.out.println(lcsPrinting(a, b, a.length(), b.length()));
     }
